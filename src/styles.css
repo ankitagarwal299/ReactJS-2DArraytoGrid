@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.container {
+  background-color: red;
+}
+.rows {
+  display: flex;
+  width: 100vw;
+  gap: 1;
+}
+
+.cols {
+  display: block;
+  background-color: green;
+  flex: 1;
+  border: 1px solid black;
+}
